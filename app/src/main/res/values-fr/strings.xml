@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+ 
+ 
+    <!-- Keep structure intact when translating! -->
+        <!-- Static -->
+        <!-- General -->
+        <!-- GPS / Tracker-->
+        <!-- Activity main -->
+        <!-- Activity file list -->
+        <!-- Activity OSM API Query -->
+        <!-- Preferences General -->
+        <!-- Preferences System -->
+        <!-- Preferences Context -->
+        <!-- Preferences Presets -->
+        <!-- Preferences Map -->
+        <!-- Preferences Map trim tiles -->
+        <!-- File context menu and file operation -->
+        <!-- Location menu -->
+        <!-- Dialog -->
+        <!-- Description -->
+        <!-- ToolTip -->
+ 
+ 
+    <!-- Static -->
+    <string name="app_name" translatable="false">AAT</string>
+ 
+    <!-- General -->
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="auto">Auto</string>
+    <string name="none">None</string>
+    <string name="enter">Enter…</string>
+    <string name="pick">Pick (SAF)…</string>
+ 
+ 
+    <!-- GPS / Tracker-->
+    <string name="gps">GPS</string>
+    <string name="gps_wait">…</string>
+    <string name="gps_nogps">No</string>
+    <string name="gps_noaccess">Denied</string>
+ 
+    <string name="tracker">Tracker</string>
+    <string name="tracker_start">Start</string>
+    <string name="tracker_pause">Pause</string>
+    <string name="tracker_stop">Stop</string>
+    <string name="tracker_resume">Resume</string>
+    <string name="tracker_restore">Restore track</string>
+ 
+    <string name="status_paused">Paused</string>
+    <string name="status_autopaused">A-Paused</string>
+ 
+ 
+    <!-- Activity main -->
+    <string name="intro_about">About</string>
+    <string name="intro_readme">README</string>
+    <string name="intro_documentation">Documentation</string>
+ 
+    <string name="intro_cockpit_a">Cockpit A</string>
+    <string name="intro_cockpit_b">Cockpit B</string>
+ 
+    <string name="intro_map">Map</string>
+    <string name="intro_nominatim">Map Search</string>
+    <string name="intro_test">Test</string>
+    <string name="intro_status">Status</string>
+ 
+    <string name="intro_overlay_list">Overlay list</string>
+    <string name="intro_list">Track list</string>
+    <string name="intro_external_list">External files</string>
+    <string name="intro_settings">Preferences</string>
+ 
+ 
+ 
+    <!-- Activity file list -->
+    <string name="label_summary">Summary</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_list">List</string>
+    <string name="filter_geo">Inside bounding</string>
+    <string name="filter_date_start">Start date</string>
+    <string name="filter_date_to">End date</string>
+ 
+ 
+    <!-- Activity OSM API Query -->
+    <string name="query_overpass">Overpass</string>
+    <string name="query_features">OSM Features</string>
+    <string name ="query_save_copy">Save copy</string>
+ 
+ 
+    <!-- Preferences General -->
+    <string name="p_general">General</string>
+    <string name="p_post_autopause">Postprocessed autopause</string>
+    <string name="p_preset_slots">Visible presets</string>
+    <string name="p_unit_title">Units</string>
+    <string-array name="p_unit_list">
+        <item>Metric (km, km/h)</item>
+        <item>Imperial (mi, mph)</item>
+        <item>Nautical (nm, kn)</item>
+        <item>International System of Units</item>
+    </string-array>
+ 
+ 
+    <!-- Preferences System -->
+    <string name="p_location_provider">Location provider</string>
+    <string name="p_location_gps">System GPS</string>
+    <string name="p_location_mock">Mock location</string>
+    <string name="p_directory_data">Data directory</string>
+    <string name="p_cache_size">Internal cache size</string>
+    <string name="p_fix_gps">Fix GPS time</string>
+ 
+ 
+    <!-- Preferences Context -->
+    <string name="p_overlay">Overlays</string>
+    <string name="p_legend_fulldistance">Distance continuous</string>
+ 
+ 
+    <!-- Preferences Presets -->
+    <string name="p_preset">Activity</string>
+    <string name="p_met">MET and name</string>
+    <string-array name="p_met_list">
+        <!--
+          List is taken and modified from "Compendium of Physical Activities"
+          https://sites.google.com/site/compendiumofphysicalactivities/Activity-Categories
+        -->
+        <item> 6.8 bicycling, leisure, moderate effort</item>
+        <item> 8.5 bicycling, mountain, general</item>
+        <item> 7.0 jogging, general</item>
+        <item> 6.0 hiking, cross country</item>
+        <item> 2.0 test</item>
+ 
+        <item>14.0 bicycling, mountain, uphill</item>
+        <item>16.0 bicycling, mountain, competitive</item>
+        <item> 5.8 bicycling, leisure, light effort</item>
+        <item>10.0 bicycling, racing or leisure, vigorous effort</item>
+        <item> 6.0 running, 4 mph (13 min/mile)</item>
+        <item> 9.0 running, 5.2 mph (11.5 min/mile)</item>
+        <item> 9.8 running, 6 mph (10 min/mile)</item>
+        <item> 9.0 running, cross country</item>
+        <item>10.0 running, on a track, team practice</item>
+        <item> 8.0 running, training, pushing a wheelchair or baby carrier</item>
+        <item>13.3 running, marathon</item>
+        <item> 7.8 backpacking, hiking or organized walking with a daypack</item>
+        <item> 7.3 climbing hills with 10 to 20 lb load</item>
+        <item> 8.3 climbing hills with 21 to 42 lb load</item>
+        <item> 9.0 climbing hills with 42+ lb load</item>
+        <item> 5.3 hiking or walking at a normal pace through fields and hillsides</item>
+        <item> 6.5 race walking</item>
+        <item> 8.0 rock or mountain climbing</item>
+        <item> 2.0 walking, strolling, very slow</item>
+        <item> 3.5 walking for pleasure</item>
+        <item> 3.0 walking the dog</item>
+        <item> 4.8 walking, for exercise, 3.5 to 4 mph, with ski poles, Nordic walking, level, moderate pace</item>
+        <item> 6.8 walking, for exercise, with ski poles, Nordic walking, uphill</item>
+ 
+    </string-array>
+ 
+    <string name="p_autopause">Autopause</string>
+    <string name="p_tracker_autopause">Set tracker to autopause</string>
+ 
+    <string name="p_weight_title">Your weight in kg</string>
+ 
+    <string name="p_backlight_title">Backlight</string>
+    <string name="p_backlight_off">System default</string>
+    <string name="p_backlight_on">Keep on</string>
+    <string name="p_backlight_on_no_lock">Keep on (disable lock screen)</string>
+    <string name="p_system">System</string>
+    <string name="p_tile_size">Tile size</string>
+    <string name="p_accuracy_filter">Accuracy filter</string>
+    <string name="p_distance_filter">Distance filter</string>
+    <string name="p_missing_trigger">Missing trigger</string>
+ 
+ 
+    <!-- Preferences Map -->
+    <string name="p_map">Map</string>
+    <string name="p_mapsforge_directory">Offline maps directory</string>
+    <string name="p_mapsforge_theme">Offline maps theme</string>
+    <string name="p_enable_cache">Enable cache</string>
+    <string name="p_directory_tiles">Tile cache directory</string>
+ 
+ 
+    <!-- Preferences Map trim tiles -->
+    <string-array name="p_trim_modes">
+        <item>Size</item>
+        <item>Size and age</item>
+        <item>Age</item>
+        <item>Size or age</item>
+    </string-array>
+    <string name="p_trim_cache">Trim tile cache</string>
+    <string name="p_tiles">Map Tiles</string>
+    <string name="p_trim_mode">Trim mode</string>
+    <string name="p_trim_size">Trim size</string>
+    <string name="p_trim_age">Trim age</string>
+    <string name="p_trim_month">Month</string>
+    <string name="p_trim_months">Months</string>
+    <string name="p_trim_year">Year</string>
+    <string name="p_trim_years">Years</string>
+    <string name="p_trim_days">Days</string>
+    <string name="p_trim_total">Total</string>
+    <string name="p_remove_all">Clear entire cache</string>
+    <string name="p_remove_all_in">Clear entire cache in</string>
+    <string name="p_remove_old">Remove old tiles</string>
+    <string name="p_remove_old_in">Remove old tiles in</string>
+ 
+ 
+ 
+    <!-- File context menu and file operation -->
+    <string name="file_reload">Reload preview</string>
+    <string name="file_delete">Delete file</string>
+    <string name="file_rename">Rename file</string>
+    <string name="file_overlay">Use as overlay</string>
+    <string name="file_mock">Use for mock location</string>
+    <string name="file_delete_ask">Delete file?</string>
+    <string name="file_send">Send…</string>
+    <string name="file_view">View/Edit…</string>
+    <string name="file_copy">Copy to…</string>
+    <string name="file_exists">\u0020already exists!</string>
+    <string name="file_is_writeable">\u0020is writeable.</string>
+    <string name="file_is_readonly">\u0020is readonly.</string>
+    <string name="file_is_missing">\u0020does not exist.</string>
+    <string name="file_is_denied">\u0020is not accessible.</string>
+ 
+ 
+    <!-- Location menu -->
+    <string name="location_title">Center location</string>
+    <string name="location_view">View location…</string>
+    <string name="location_send">Send location…</string>
+    <string name="clipboard_copy">\u21d2 Clipboard</string>
+    <string name="clipboard_paste">\u21d0 Clipboard</string>
+ 
+ 
+    <!-- Dialog -->
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok" translatable="false">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_discard">Discard</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_modified">File has been modified</string>
+ 
+ 
+    <!-- Description -->
+    <string name="d_longitude">Longitude</string>
+    <string name="d_latitude">Latitude</string>
+    <string name="d_chx" translatable="false">CH1903 X</string>
+    <string name="d_chy" translatable="false">CH1903 Y</string>
+    <string name="d_name">Name</string>
+    <string name="d_accuracy">Accuracy</string>
+    <string name="d_enddate">End</string>
+    <string name="d_startdate">Start</string>
+    <string name="d_acceleration">Acceleration</string>
+    <string name="d_bearing">Bearing</string>
+    <string name="d_path">Path</string>
+    <string name="d_state">State</string>
+    <string name="d_size">Size</string>
+    <string name="d_ascend">Climb</string>
+    <string name="d_descend">Descend</string>
+    <string name="d_slope">Slope</string>
+ 
+    <string name="pause">Pause</string>
+    <string name="pause_ap">Pause (with autopause)</string>
+    <string name="speed">Speed</string>
+    <string name="average">Average</string>
+    <string name="average_ap">Average (without pauses)</string>
+    <string name="maximum">Maximum</string>
+    <string name="distance">Distance</string>
+    <string name="altitude">Altitude</string>
+ 
+    <string name="time">Total time</string>
+    <string name="time_ap">Total time (without pauses)</string>
+ 
+    <string name="calories">Calories</string>
+    <string name="name">Name</string>
+ 
+ 
+    <!-- ToolTip -->
+    <string name ="tt_edit_add">Add a point with the location the map is centered to.</string>
+    <string name ="tt_edit_remove">Remove selected point.</string>
+    <string name ="tt_edit_up">Move point one up in order.</string>
+    <string name ="tt_edit_down">Move point one down in order.</string>
+    <string name ="tt_edit_redo">Redo last undone action..</string>
+    <string name ="tt_edit_undo">Undo last action.</string>
+ 
+    <string name ="tt_info_grid">Switch between grid modes.</string>
+    <string name ="tt_info_legend">Switch between track legend modes.</string>
+    <string name ="tt_info_nominatim">Search with OSM-Nominatim.</string>
+    <string name ="tt_info_overpass">OSM-Overpass query.</string>
+    <string name ="tt_info_reload">Reload visible tiles.</string>
+    <string name ="tt_info_location">Import/export of center location.</string>
+ 
+ 
+    <string name ="tt_map_zoomin">Zoom into map.</string>
+    <string name ="tt_map_zoomout">Zoom out of map.</string>
+    <string name ="tt_map_home">Lock center of map to your currently known location.</string>
+    <string name ="tt_map_frame">Switch between GPX-Overlays and frame them.</string>
+ 
+ 
+    <string name ="tt_nominatim_query">Start search.</string>
+    <string name ="tt_nominatim_clear">Clear line in search text.</string>
+ 
+    <string name ="tt_cockpit_a">Fullscreen</string>
+    <string name ="tt_cockpit_b">Splitscreen</string>
+ 
+    <string name ="tt_overpass_mapfeatures">Show list of map features.</string>
+ 
+    <string name ="tt_menu_file">Display file operation menu.</string>
+ 
+    <string name ="tt_p_preset_slots">Number of directories and presets you want to use to organize tracks.</string>
+</resources>
+ 
